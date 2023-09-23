@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
-import rulesImg from "../assets/images/7450159.svg";
+import rulesImg from "../assets/images/7450159 1.png";
 import Image from "next/image";
 import purpleBg from "../assets/images/Purple-Lens-Flare-PNG.svg";
 import { PiStarFourFill } from "react-icons/pi";

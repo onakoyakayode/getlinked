@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import judgeImg from "../assets/images/8046554.svg";
+import judgeImg from "../assets/images/8046554 1.png";
 import Button from "@/components/Button";
 import ellipse from "../assets/images/Ellipse 2.svg";
 import { PiStarFourFill } from "react-icons/pi";
