@@ -83,7 +83,7 @@ const Testimonial = () => {
             companies as its partners and sponsors
           </p>
           <div
-            className={` h-[148px] md:h-[400px] lg:h-[560px] w-[100%] border-[#D434FE] border-[1px] rounded-[5px] flex justify-center items-center`}
+            className={` h-[148px] md:h-[400px] lg:h-[560px] 2xl:w-[60%] 2xl:mx-auto w-[100%] border-[#D434FE] border-[1px] rounded-[5px] flex justify-center items-center`}
           >
             <div className="flex justify-center items-center gap-[10px] md:gap-[60px]">
               <div className="flex flex-col items-center justify-start gap-[12px] md:gap-[24px]">

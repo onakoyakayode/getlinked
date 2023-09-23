@@ -17,7 +17,7 @@ const Hero = () => {
     router.push("/Register");
   };
   return (
-    <div className=" mt-[20px] lg:mt-[32px] xl:mt-[24px] h-[89dvh] md:h-full lg:h-full xl:h-[89dvh] 2xl:h-[95dvh] border-[#ffffff18] border-b-[1px] flex flex-col items-start justify-start relative">
+    <div className=" mt-[20px] lg:mt-[32px] xl:mt-[24px] h-[89dvh] md:h-full lg:h-full xl:h-[80dvh] 2xl:h-[88dvh] border-[#ffffff18] border-b-[1px] flex flex-col items-start xl:items-center 2xl:justify-center 2xl:items-center justify-start relative">
       <div className="self-end relative h-24 pl-[30px] pr-[33px] md:pl-[108px] lg:pl-[128px] xl:pl-[10px] xl:pr-[70px] md:pr-[30px] lg:pr-[55px]">
         <div className="text-pryColor relative font-bold italic text-[15px] leading-[19.5px] md:text-[26px] lg:text-[29px] xl:text-[36px] md:leading-[36.3px] lg:leading-[43.88px]">
           <Typewriter
@@ -53,7 +53,7 @@ const Hero = () => {
         <PiStarFourFill
           className={`${styles.fadeInOut} w-[26px] h-[32px] absolute bottom-[76px] left-[30%] text-[#696969]`}
         />
-        <div className="w-[100%] md:w-[100%] lg:w-[40%] pl-[30px] pr-[33px] lg:pl-[70px] xl:pl-[100px] 2xl:pl-[128px] lg:pr-[0px] xl:pr-[30px] 2xl:pr-[55px] relative flex flex-col justify-start items-center md:items-start">
+        <div className="w-[100%] md:w-[100%] lg:w-[40%] pl-[30px] pr-[33px] lg:pl-[70px] xl:pl-[100px] 2xl:pl-[128px] lg:pr-[0px] xl:pr-[30px] 2xl:pr-[0px] relative flex flex-col justify-start items-center md:items-start">
           <Image
             src={title}
             alt="getlinked"
@@ -86,7 +86,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[60%] 2xl:w-[50%] h-[362px] md:h-[520px] lg:h-[550px] xl:h-[580px] 2xl:h-[570px] relative overflow-hidden">
+        <div className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[100%] 2xl:w-[60%] h-[362px] md:h-[520px] lg:h-[550px] xl:h-[570px] 2xl:h-[720px] relative overflow-hidden">
           <Image
             src={getLinkedImg}
             alt="getlinked"

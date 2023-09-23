@@ -25,15 +25,15 @@ const Footer = () => {
         className={`${styles.fadeInOut} w-[12px] h-[14px] text-[#666] absolute top-[15%] right-[33%]`}
       />
       <div className="h-auto lg:h-[201px] w-[95%] md:w-[100%] lg:w-[100%] flex md:flex-wrap md:flex-row flex-col justify-between items-start gap-[40px] lg:gap-[80px]">
-        <div className="w-[100%] lg:w-[33%] xl:w-[40%] 2xl:w-[60%] justify-center">
+        <div className="w-[100%] lg:w-[33%] xl:w-[40%] 2xl:w-[40%] justify-center">
           <Link href="/">
             <Image
               src={logo}
               alt="getlinked"
-              className="mb-[20px] w-[95px] h-[25px] lg:scale-80 md:h-auto md:w-auto"
+              className="mb-[20px] w-[95px] h-[25px] lg:scale-80 md:h-auto md:w-auto 2xl:scale-100"
             />
           </Link>
-          <p className="text-[12px] leading-[130%] xl:text-[13px] w-[100%] md:w-[60%] lg:w-[100%] xl:w-[100%] 2xl:w-[80%] mb-[40px] lg:mb-[62px]">
+          <p className="text-[12px] leading-[130%] xl:text-[13px] w-[100%] 2xl:text-[14px] md:w-[60%] lg:w-[100%] xl:w-[100%] 2xl:w-[80%] mb-[40px] lg:mb-[62px]">
             Getlinked Tech Hackathon is a technology innovation program
             established by a group of organizations with the aim of showcasing
             young and talented individuals in the field of technology
@@ -45,10 +45,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-[100%] md:w-[50%] lg:w-[20%]">
-          <h4 className="text-[#d434fe] text-[14px] xl:text-[15px] leading-[150%] font-semibold mb-[20px]">
+          <h4 className="text-[#d434fe] text-[14px] xl:text-[15px] 2xl:text-[17px] 2xl:font-bold leading-[150%] font-semibold mb-[20px]">
             Useful Links
           </h4>
-          <ul className="flex flex-col items-start justify-start gap-[11px] text-[12px] leading-[20.69px]">
+          <ul className="flex flex-col items-start justify-start gap-[11px] text-[12px] 2xl:text-[13px] leading-[170%">
             <Link href="/">Overview</Link>
             <Link href="/">Timeline</Link>
             <Link href="/">FAQs</Link>
@@ -75,23 +75,23 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-[100%] md:w-[40%] lg:w-[20%]">
-          <h4 className="text-[#d434fe] text-[14px] xl:text-[15px] leading-[150%] font-semibold mb-[20px]">
+          <h4 className="text-[#d434fe] text-[14px] xl:text-[15px] 2xl:text-[17px] 2xl:font-bold leading-[150%] font-semibold mb-[20px]">
             Contact Us
           </h4>
           <div className="flex justify-start items-center gap-[16px] mb-[22px]">
             <BiPhoneCall className="w-[12px] h-[12px]" />
             <Link
               href="tel:+234 6707653444"
-              className="text-[12px] leading-[14.63px]"
+              className="text-[12px] leading-[140%] 2xl:text-[13px]"
             >
               +234 6707653444
             </Link>
           </div>
-          <div className="flex justify-start items-center gap-[16px]">
+          <div className="flex justify-start items-center gap-[16px] 2xl:text-[13px]">
             <HiLocationMarker className="w-[12px] h-[12px]" />
             <Link
               href="https://maps.app.goo.gl/gwLdUkkomW9wVB9G9"
-              className="text-[12px] leading-[120%] w-[89px] lg:w-[100px]"
+              className="text-[12px] leading-[120%] w-[89px] 2xl:w-[80%] lg:w-[100px] 2xl:text-[14px]"
             >
               27, Alara Street Yaba 100012 Lagos State
             </Link>

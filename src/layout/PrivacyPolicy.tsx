@@ -33,20 +33,20 @@ const PrivacyPolicy = () => {
       <div className="w-[100%] flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-[20px] md:gap-[50px] lg:gap-[60px] xl:gap-[103px] relative">
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
-          className="w-[100%] lg:w-[50%] xl:w-[50%]"
+          className="w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%]"
         >
-          <h1 className="text-[20px] md:text-[26px] lg:text-[32px] leading-[130%] mx-auto md:mx-0 font-clashDisplay font-bold w-[188px] md:w-[300px] mb-[17px]">
+          <h1 className="text-[20px] md:text-[26px] lg:text-[32px] 2xl:text-[36px] 2xl:w-[60%] leading-[130%] mx-auto md:mx-0 font-clashDisplay font-bold w-[188px] md:w-[300px] mb-[17px]">
             Privacy Policy and <span className="text-[#D434FE]">Terms</span>
           </h1>
-          <p className="text-[#FFFFFF75] text-[12px] md:text-[14px] leading-[130%] w-[221px] md:w-auto mx-auto mb-[30px]">
+          <p className="text-[#FFFFFF75] text-[12px] md:text-[14px] leading-[130%] 2xl:text-[15px] w-[221px] md:w-auto mx-auto mb-[30px]">
             Last updated on September 12, 2023
           </p>
-          <p className="text-[12px] md:text-[14px] leading-[26px] w-[100%] text-center md:text-left md:w-[438px] lg:w-[90%] mb-[69px]">
+          <p className="text-[12px] md:text-[14px] leading-[26px] w-[100%] text-center 2xl:text-[15px] md:text-left md:w-[438px] lg:w-[90%] mb-[69px]">
             Below are our privacy & policy, which outline a lot of goodies. it’s
             our aim to always take of our participant
           </p>
-          <div className="flex flex-col items-start w-[100%] lg:w-[100%] xl:w-[569px] h-[608px] lg:h-auto border-[#d434fe] border-[1px] rounded-[5px] py-[45px] md:py-[59px] px-[15px] md:px-[72px] lg:py-[30px] lg:px-[30px]">
-            <p className="text-[12px] text-center md:text-left md:text-[14px] leading-[30px] mb-[24px]">
+          <div className="flex flex-col items-start w-[100%] lg:w-[100%] xl:w-[569px] 2xl:w-[100%] 2xl:h-[550px] h-[608px] lg:h-auto border-[#d434fe] border-[1px] rounded-[5px] py-[45px] md:py-[59px] px-[15px] md:px-[72px] lg:py-[30px] lg:px-[30px]">
+            <p className="text-[12px] text-center md:text-left md:text-[14px] leading-[30px] mb-[24px] 2xl:text-[15px] 2xl:mb-[30px]">
               At getlinked tech Hackathon 1.0, we value your privacy and are
               committed to protecting your personal information. This Privacy
               Policy outlines how we collect, use, disclose, and safeguard your
@@ -54,18 +54,18 @@ const PrivacyPolicy = () => {
               participating in our event, you consent to the practices described
               in this policy.
             </p>
-            <h3 className="text-[#D434FE] text-[13px] md:text-[16px] leading-[150%] font-bold">
+            <h3 className="text-[#D434FE] text-[13px] md:text-[16px] 2xl:text-[17px] leading-[150%] font-bold">
               Licensing Policy
             </h3>
-            <p className="text-[12px] md:text-[14px] leading-[30px] mb-[18px] font-bold">
+            <p className="text-[12px] md:text-[14px] 2xl:text-[15px] leading-[150%] mb-[18px] font-bold">
               Here are terms of our Standard License:
             </p>
             <ul className={`${styles.privacyListItems}`}>
-              <li className="text-[13px] md:text-[14px] leading-[150%] mb-[14px]">
+              <li className="text-[13px] md:text-[14px] leading-[150%] 2xl:text-[15px] mb-[14px]">
                 The Standard License grants you a non-exclusive right to
                 navigate and register for our event
               </li>
-              <li className="text-[13px] md:text-[14px] leading-[150%] mb-[30px]">
+              <li className="text-[13px] md:text-[14px] leading-[150%] 2xl:text-[15px] mb-[30px]">
                 You are licensed to use the item available at any free source
                 sites, for your project developement
               </li>
