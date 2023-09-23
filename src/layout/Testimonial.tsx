@@ -50,14 +50,14 @@ const Testimonial = () => {
           animateIn="animate__fadeInRight"
           className="self-center md:self-start lg:self-end xl:self-end mb-[20px] lg:mb-[70px] lg:ml-[60%]"
         >
-          <h2 className="text-[20px] md:text-[26px] lg:text-[32px] font-bold leading-[130%] mx-auto md:mx-auto lg:mx-0 font-clashDisplay w-[109px] md:w-[174px] lg:w-[60%] mb-[20px]">
+          <h2 className="text-[20px] md:text-[26px] lg:text-[32px] font-bold leading-[140%] mx-auto md:mx-auto lg:mx-0 font-clashDisplay w-[109px] md:w-[174px] lg:w-[60%] mb-[10px] md:mb-[20px]">
             Prizes and <span className="text-[#D434FE]">Rewards</span>
           </h2>
-          <p className="w-[100%] md:w-[70%] lg:w-[90%] text-[12px] md:text-[14px] lg:text-[15px] leading-[130%] md:mx-auto lg:mx-0 text-center lg:text-left">
+          <p className="w-[80%] mx-auto md:w-[70%] lg:w-[90%] text-[12px] md:text-[14px] lg:text-[15px] leading-[130%] md:mx-auto lg:mx-0 text-center lg:text-left">
             Highlight of the prizes or rewards for winners and for participants
           </p>
         </AnimationOnScroll>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-[37px] w-[100%] mb-[263px] lg:mb-[100px]">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-[60px] w-[100%] mb-[100px] lg:mb-[100px]">
           <AnimationOnScroll
             animateIn="animate__fadeInLeft"
             className={`${styles.testimonialCup} w-[100%] md:w-[400px] md:h-[400px] lg:w-[50%]`}
@@ -75,10 +75,10 @@ const Testimonial = () => {
           animateIn="animate__fadeInUp"
           className="self-center w-[100%]"
         >
-          <h1 className="text-[20px] md:text-[26px] lg:text-[32px] leading-[130%] font-bold font-clashDisplay mb-[15px] lg:mb-[22px] text-center">
+          <h1 className="text-[20px] md:text-[26px] lg:text-[32px] leading-[140%] font-bold font-clashDisplay mb-[15px] lg:mb-[22px] text-center">
             Partners and Sponsors
           </h1>
-          <p className="text-[12px] md:text-[14px] leading-[130%] w-[100%] md:w-[70%] lg:w-[452px] text-center mx-auto mb-[65px]">
+          <p className="text-[12px] md:text-[14px] leading-[140%] w-[100%] md:w-[70%] lg:w-[452px] text-center mx-auto mb-[65px]">
             Getlinked Hackathon 1.0 is honored to have the following major
             companies as its partners and sponsors
           </p>

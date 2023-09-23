@@ -33,7 +33,7 @@ const Footer = () => {
               className="mb-[20px] w-[95px] h-[25px] lg:scale-80 md:h-auto md:w-auto 2xl:scale-100"
             />
           </Link>
-          <p className="text-[12px] leading-[130%] xl:text-[13px] w-[100%] 2xl:text-[14px] md:w-[60%] lg:w-[100%] xl:w-[100%] 2xl:w-[80%] mb-[40px] lg:mb-[62px]">
+          <p className="text-[12px] leading-[140%] xl:text-[13px] w-[90%] 2xl:text-[14px] md:w-[60%] lg:w-[100%] xl:w-[100%] 2xl:w-[80%] mb-[40px] lg:mb-[62px]">
             Getlinked Tech Hackathon is a technology innovation program
             established by a group of organizations with the aim of showcasing
             young and talented individuals in the field of technology
@@ -98,7 +98,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-[12px] leading-[14.63px] mt-[80px]">
+      <p className="text-[12px] leading-[14.63px] mt-[80px] self-start md:self-center">
         All rights reserved. © getlinked Ltd.
       </p>
     </div>

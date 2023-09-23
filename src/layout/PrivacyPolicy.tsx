@@ -35,13 +35,13 @@ const PrivacyPolicy = () => {
           animateIn="animate__fadeInLeft"
           className="w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%]"
         >
-          <h1 className="text-[20px] md:text-[26px] lg:text-[32px] 2xl:text-[36px] 2xl:w-[60%] leading-[130%] mx-auto md:mx-0 font-clashDisplay font-bold w-[188px] md:w-[300px] mb-[17px]">
+          <h1 className="text-center md:text-left text-[20px] md:text-[26px] lg:text-[32px] 2xl:text-[36px] 2xl:w-[60%] leading-[130%] mx-auto md:mx-0 font-clashDisplay font-bold w-[188px] md:w-[300px] mb-[17px]">
             Privacy Policy and <span className="text-[#D434FE]">Terms</span>
           </h1>
           <p className="text-[#FFFFFF75] text-[12px] md:text-[14px] leading-[130%] 2xl:text-[15px] w-[221px] md:w-auto mx-auto mb-[30px]">
             Last updated on September 12, 2023
           </p>
-          <p className="text-[12px] md:text-[14px] leading-[26px] w-[100%] text-center 2xl:text-[15px] md:text-left md:w-[438px] lg:w-[90%] mb-[69px]">
+          <p className="text-[12px] md:text-[14px] leading-[140%] mx-auto md:mx-0 w-[80%] md:w-[100%] text-center 2xl:text-[15px] md:text-left md:w-[438px] lg:w-[90%] mb-[69px]">
             Below are our privacy & policy, which outline a lot of goodies. it’s
             our aim to always take of our participant
           </p>

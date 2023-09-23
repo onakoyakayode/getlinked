@@ -103,7 +103,7 @@ const Navbar: React.FC<NavbarProps> = ({ customClassName }) => {
             src={logo}
             alt="getlinked"
             loading="lazy"
-            className="w-[72px] h-[18px]"
+            className="w-[100%] h-[20px]"
           />
         </Link>
         <div

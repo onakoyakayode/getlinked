@@ -43,7 +43,7 @@ const Judging = () => {
           className="absolute hidden xl:block top-[10%] left-[6%] z-0 w-[134px] h-[134px] 2xl:top-[-3%] 2xl:left-[8%] object-cover"
         />
         <div className="w-[100%] lg:w-[45%] xl:w-[50%] flex flex-col items-center md:items-start">
-          <h3 className="text-[20px] md:text-[28px] lg:text-[32px] 2xl:text-[35px] 2xl:w-[40%] leading-[135%] w-[167px] md:w-[267px] mx-auto md:mx-0 font-clashDisplay font-bold mb-[16px] md:mb-[21px]">
+          <h3 className="text-[20px] text-center md:text-left md:text-[28px] lg:text-[32px] 2xl:text-[35px] 2xl:w-[40%] leading-[140%] w-[167px] md:w-[267px] mx-auto md:mx-0 font-clashDisplay font-bold mb-[16px] md:mb-[21px]">
             Judging Criteria{" "}
             <span className="text-[#D434FE]">Key attributes</span>
           </h3>
@@ -93,7 +93,7 @@ const Judging = () => {
             isSpecialPage
             specialStyle
             text="Read More"
-            className="text-[16px] leading-[19.5px]"
+            className="h-[41px] !w-[120px] text-[16px] md:text-[17px] leading-[150%]"
           />
         </div>
       </AnimationOnScroll>

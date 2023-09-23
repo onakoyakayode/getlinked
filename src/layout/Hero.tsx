@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import typeLine from "../assets/icons/Vector4.png";
 import Image from "next/image";
@@ -16,10 +16,26 @@ const Hero = () => {
   const handleClick = () => {
     router.push("/Register");
   };
+
+  const [time, setTime] = useState(new Date());
+  useEffect(() => {
+    // Update the time every second
+    const intervalId = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+
+    // Clean up the interval when the component unmounts
+    return () => clearInterval(intervalId);
+  }, []);
+
+  const hours = time.getHours();
+  const minutes = time.getMinutes();
+  const seconds = time.getSeconds();
+
   return (
-    <div className=" mt-[20px] lg:mt-[32px] xl:mt-[24px] h-[89dvh] md:h-full lg:h-full xl:h-[80dvh] 2xl:h-[88dvh] border-[#ffffff18] border-b-[1px] flex flex-col items-start xl:items-center 2xl:justify-center 2xl:items-center justify-start relative">
-      <div className="self-end relative h-24 pl-[30px] pr-[33px] md:pl-[108px] lg:pl-[128px] xl:pl-[10px] xl:pr-[70px] md:pr-[30px] lg:pr-[55px]">
-        <div className="text-pryColor relative font-bold italic text-[15px] leading-[19.5px] md:text-[26px] lg:text-[29px] xl:text-[36px] md:leading-[36.3px] lg:leading-[43.88px]">
+    <div className=" mt-[20px] lg:mt-[32px] xl:mt-[24px] h-[90dvh] sm:h-[100dvh] md:h-full lg:h-full xl:h-[80dvh] 2xl:h-[88dvh] border-[#ffffff18] border-b-[1px] flex flex-col items-start xl:items-center 2xl:justify-center 2xl:items-center justify-start relative">
+      <div className="self-end relative h-6 pl-[30px] pr-[33px] md:pl-[108px] lg:pl-[128px] xl:pl-[10px] xl:pr-[70px] md:pr-[30px] lg:pr-[55px]">
+        <div className="text-pryColor relative font-bold italic text-[16px] leading-[150%] md:text-[26px] lg:text-[29px] xl:text-[36px]">
           <Typewriter
             words={["Igniting a Revolution in HR Innovation"]}
             loop={5}
@@ -34,7 +50,7 @@ const Hero = () => {
           <Image
             src={typeLine}
             alt="getlinked"
-            className="absolute right-[10%] mt-[12px] md:mt-[-5%] md:right-[5%] lg:right-[8%] xl:right-[12%] top-[20%] md:top-[83%] lg:top-[10vh] xl:top-[95%] w-[35%] md:w-[30%] lg:w-[30%]"
+            className="absolute right-[10%] mt-[12px] md:mt-[-5%] md:right-[5%] lg:right-[8%] xl:right-[12%] top-[1.5vh] md:top-[83%] lg:top-[10vh] xl:top-[95%] w-[35%] md:w-[30%] lg:w-[30%] 2xl:top-[10vh]"
           />
         </div>
       </div>
@@ -53,12 +69,12 @@ const Hero = () => {
         <PiStarFourFill
           className={`${styles.fadeInOut} w-[26px] h-[32px] absolute bottom-[76px] left-[30%] text-[#696969]`}
         />
-        <div className="w-[100%] md:w-[100%] lg:w-[40%] pl-[30px] pr-[33px] lg:pl-[70px] xl:pl-[100px] 2xl:pl-[128px] lg:pr-[0px] xl:pr-[30px] 2xl:pr-[0px] relative flex flex-col justify-start items-center md:items-start">
+        <div className="w-[100%] md:w-[100%] lg:w-[40%] pl-[30px] pr-[33px] lg:pl-[70px] xl:pl-[100px] 2xl:w-[50%] 2xl:pl-[128px] lg:pr-[0px] xl:pr-[30px] 2xl:pr-[0px] relative flex flex-col justify-start items-center md:items-start">
           <Image
             src={title}
             alt="getlinked"
             loading="lazy"
-            className="w-[289px] h-[91px] md:h-[259px] lg:h-[210px] xl:h-[236px] md:w-[543px] lg:w-[722px] xl:w-[100%] mb-[9px] md:mb-[9px] lg:mb-[0]"
+            className="w-[100%] h-[100px] scale-110 md:scale-100 md:h-[259px] sm:w-[100%] lg:h-[210px] xl:h-[236px] 2xl:h-[300px] md:w-[543px] lg:w-[722px] xl:w-[100%] mb-[9px] md:mb-[9px] lg:mb-[0]"
           />
           <p className="font-normal text-[13px] leading-[130%] md:text-[16px] lg:text-[15px] xl:text-[20px] md:text-left lg:text-left text-center w-[264px] md:w-[82%] mb-[41px]">
             Participate in getlinked tech Hackathon 2023 stand a chance to win a
@@ -67,26 +83,26 @@ const Hero = () => {
           <Button
             onClick={handleClick}
             text="Register"
-            className="mb-[37px]"
+            className="mb-[37px] h-[53px] !w-[120px]"
             specialStyle
             isSpecialPage
           />
           <div className="text-[48px] md:text-[56px] lg:text-[60px] xl:text-[64px] font-normal leading-[133%] font-unicalOne flex justify-start items-center gap-4">
             <p>
-              00
+              {hours}
               <span className="text-[14px] font-normal leading-[133%]">H </span>
             </p>
             <p>
-              00
+              {minutes}
               <span className="text-[14px] font-normal leading-[133%]">M</span>
             </p>
             <p>
-              00
+              {seconds}
               <span className="text-[14px] font-normal leading-[133%]">s</span>
             </p>
           </div>
         </div>
-        <div className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[100%] 2xl:w-[60%] h-[362px] md:h-[520px] lg:h-[550px] xl:h-[570px] 2xl:h-[720px] relative overflow-hidden">
+        <div className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[100%] 2xl:w-[50%] h-[170vh] md:h-[520px] lg:h-[550px] xl:h-[570px] 2xl:h-[720px] relative overflow-hidden">
           <Image
             src={getLinkedImg}
             alt="getlinked"

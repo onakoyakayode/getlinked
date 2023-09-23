@@ -44,6 +44,13 @@
 .num {
   background: linear-gradient(#903aff, #d434fe);
   position: relative;
+  scale: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .num {
+    scale: 0.8;
+  }
 }
 
 .num::before {
@@ -68,6 +75,13 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+  .testimonialCup {
+    background: none;
+    opacity: 0;
+  }
+}
+
 .testimonialReward {
   background-image: url("../assets/images/Purple-Lens-Flare-PNG.svg");
   background-size: cover;
@@ -90,9 +104,9 @@
   .line17::before {
     position: absolute;
     content: url("../assets/images/Line17.png");
-    top: -10%;
-    right: -30%;
-    scale: 0.85;
+    top: -100%;
+    right: -57%;
+    scale: 0.5;
   }
 }
 
@@ -109,9 +123,9 @@
 
 @media screen and (max-width: 768px) {
   .lineBottom::before {
-    top: -20%;
-    right: -35%;
-    scale: 0.9;
+    top: -60%;
+    right: -63%;
+    scale: 0.5;
   }
 }
 
@@ -128,9 +142,9 @@
 
 @media screen and (max-width: 768px) {
   .lineLiberty::before {
-    top: -10%;
-    right: -35%;
-    scale: 0.85;
+    top: -100%;
+    right: -95%;
+    scale: 0.5;
   }
 }
 .privacyListItems {
