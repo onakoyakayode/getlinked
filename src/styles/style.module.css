@@ -1,0 +1,164 @@
+.button {
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.fadeInOut {
+  animation-name: fadeInOut;
+  animation-duration: 2s; /* Adjust the duration as needed (2 seconds in this example) */
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; /* Run the animation infinitely */
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.num {
+  background: linear-gradient(#903aff, #d434fe);
+  position: relative;
+}
+
+.num::before {
+  content: url("../assets/icons/Line\ 3.png");
+  position: absolute;
+  bottom: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .num::before {
+    content: url("../assets/icons/Line\ 3.png");
+    position: absolute;
+    bottom: -30%;
+    scale: 0.6;
+  }
+}
+
+.testimonialCup {
+  background-image: url("../assets/images/Purple-Lens-Flare-PNG.svg");
+  background-size: cover;
+  background-position: 90px -90px;
+  background-repeat: no-repeat;
+}
+
+.testimonialReward {
+  background-image: url("../assets/images/Purple-Lens-Flare-PNG.svg");
+  background-size: cover;
+  background-position: 390px -90px;
+  background-repeat: no-repeat;
+}
+
+.line17 {
+  position: relative;
+}
+
+.line17::before {
+  position: absolute;
+  content: url("../assets/images/Line\ 17.png");
+  top: 0;
+  right: -25%;
+}
+
+@media screen and (max-width: 768px) {
+  .line17::before {
+    position: absolute;
+    content: url("../assets/images/Line\ 17.png");
+    top: -10%;
+    right: -30%;
+    scale: 0.85;
+  }
+}
+
+.lineBottom {
+  position: relative;
+}
+
+.lineBottom::before {
+  position: absolute;
+  content: url("../assets/images/Line\ 17.png");
+  bottom: -4%;
+  right: -24%;
+}
+
+@media screen and (max-width: 768px) {
+  .lineBottom::before {
+    top: -20%;
+    right: -35%;
+    scale: 0.9;
+  }
+}
+
+.lineLiberty {
+  position: relative;
+}
+
+.lineLiberty::before {
+  position: absolute;
+  content: url("../assets/images/Line\ 17.png");
+  top: 0;
+  right: -20%;
+}
+
+@media screen and (max-width: 768px) {
+  .lineLiberty::before {
+    top: -10%;
+    right: -35%;
+    scale: 0.85;
+  }
+}
+.privacyListItems {
+  position: relative;
+  list-style: none;
+}
+
+.privacyListItems li {
+  padding-left: 27px; /* Add some padding to the left of list items to create space for the image */
+  background-image: url("../assets/images/list\ terms.png"); /* Replace 'your-image-url.png' with the URL of your image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: left top; /* Position the image to the left of the list item */
+  background-size: 16px 16px; /* Set the size of the image */
+  margin-bottom: px;
+}
+
+@media (max-width: 767px) {
+  .hiddenMobile {
+    display: none;
+  }
+}
+
+.gradientBorder {
+  border-image-slice: 1;
+  border-radius: 2px;
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)),
+    radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
