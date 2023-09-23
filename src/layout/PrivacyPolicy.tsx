@@ -4,7 +4,7 @@ import styles from "../styles/style.module.css";
 import Button from "@/components/Button";
 import Image from "next/image";
 import lock from "../assets/images/Vector.png";
-import privacyImg from "../assets/images/08 1.png";
+import privacyImg from "../assets/images/081.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const PrivacyPolicy = () => {

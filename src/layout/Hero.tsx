@@ -1,12 +1,12 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import typeLine from "../assets/icons/Vector 4.png";
+import typeLine from "../assets/icons/Vector4.png";
 import Image from "next/image";
 import styles from "../styles/style.module.css";
 import title from "../assets/images/Title.svg";
 import Button from "@/components/Button";
-import getLinkedImg from "../assets/images/Image 1.png";
-import man from "../assets/images/man-wearing-smart-glasses-touching-virtual-screen 1.png";
+import getLinkedImg from "../assets/images/Image1.png";
+import man from "../assets/images/man-wearing-smart-glasses-touching-virtual-screen1.png";
 import { PiStarFourFill } from "react-icons/pi";
 import purpleStamp from "../assets/images/Purple-Lens-Flare-PNG.svg";
 import { useRouter } from "next/router";

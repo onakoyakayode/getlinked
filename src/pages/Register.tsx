@@ -1,14 +1,13 @@
 import Navbar from "@/layout/Navbar";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import regImg from "../assets/images/3d-graphic-designer-showing-thumbs-up-png 1.png";
+import regImg from "../assets/images/3d-graphic-designershowingthumbsup-png.png";
 import regImg1 from "../assets/images/1f6b6-2640.png";
 import regImg2 from "../assets/images/image_processing20200511-10310-13mnlsx.png";
 import Button from "@/components/Button";
 import purpleBg from "../assets/images/Purple-Lens-Flare-PNG.svg";
 import styles from "../styles/style.module.css";
 import successImg from "../assets/images/congratulation.png";
-import { fetchData } from "./api/api";
 import axios from "axios";
 
 interface Props {

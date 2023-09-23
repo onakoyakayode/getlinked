@@ -47,14 +47,14 @@
 }
 
 .num::before {
-  content: url("../assets/icons/Line\ 3.png");
+  content: url("../assets/icons/Line3.png");
   position: absolute;
   bottom: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .num::before {
-    content: url("../assets/icons/Line\ 3.png");
+    content: url("../assets/icons/Line3.png");
     position: absolute;
     bottom: -30%;
     scale: 0.6;
@@ -81,7 +81,7 @@
 
 .line17::before {
   position: absolute;
-  content: url("../assets/images/Line\ 17.png");
+  content: url("../assets/images/Line17.png");
   top: 0;
   right: -25%;
 }
@@ -89,7 +89,7 @@
 @media screen and (max-width: 768px) {
   .line17::before {
     position: absolute;
-    content: url("../assets/images/Line\ 17.png");
+    content: url("../assets/images/Line17.png");
     top: -10%;
     right: -30%;
     scale: 0.85;
@@ -102,7 +102,7 @@
 
 .lineBottom::before {
   position: absolute;
-  content: url("../assets/images/Line\ 17.png");
+  content: url("../assets/images/Line17.png");
   bottom: -4%;
   right: -24%;
 }
@@ -121,7 +121,7 @@
 
 .lineLiberty::before {
   position: absolute;
-  content: url("../assets/images/Line\ 17.png");
+  content: url("../assets/images/Line17.png");
   top: 0;
   right: -20%;
 }
@@ -140,7 +140,7 @@
 
 .privacyListItems li {
   padding-left: 27px; /* Add some padding to the left of list items to create space for the image */
-  background-image: url("../assets/images/list\ terms.png"); /* Replace 'your-image-url.png' with the URL of your image */
+  background-image: url("../assets/images/listterms.png"); /* Replace 'your-image-url.png' with the URL of your image */
   background-repeat: no-repeat; /* Prevent image from repeating */
   background-position: left top; /* Position the image to the left of the list item */
   background-size: 16px 16px; /* Set the size of the image */

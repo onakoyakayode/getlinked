@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ideaImg from "../assets/images/The big idea.svg";
+import ideaImg from "../assets/images/Thebigidea.png";
 import "animate.css";
 import styles from "../styles/style.module.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";

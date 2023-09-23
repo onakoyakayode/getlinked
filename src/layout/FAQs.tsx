@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "@/components/Accordion";
 import Image from "next/image";
-import faqImg from "../assets/images/cwok_casual_21 1.png";
+import faqImg from "../assets/images/cwok_casual_211.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { PiStarFourFill } from "react-icons/pi";
 import styles from "../styles/style.module.css";

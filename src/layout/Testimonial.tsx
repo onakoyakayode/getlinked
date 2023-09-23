@@ -1,16 +1,16 @@
 import React from "react";
 import { PiStarFourFill } from "react-icons/pi";
 import styles from "../styles/style.module.css";
-import cup from "../assets/images/9486889 1.png";
+import cup from "../assets/images/9486889.png";
 import Image from "next/image";
 import reward from "../assets/images/Rewards.png";
-import libertyAssured from "../assets/images/Liberty company logo white colour.png";
-import line12 from "../assets/images/Line 12.png";
-import wisperLogo from "../assets/images/wisper logo white.png";
-import libertyPay from "../assets/images/Liberty company logo white.png";
-import winwise from "../assets/images/Winwise logo White colour 1.png";
+import libertyAssured from "../assets/images/Libertycompanylogowhitecolour.png";
+import line12 from "../assets/images/Line12.png";
+import wisperLogo from "../assets/images/wisperlogowhite.png";
+import libertyPay from "../assets/images/Libertycompanylogowhite.png";
+import winwise from "../assets/images/WinwiselogoWhitecolour1.png";
 import payBox from "../assets/images/Paybox.png";
-import visualPlus from "../assets/images/Vizual Plus.png";
+import visualPlus from "../assets/images/VizualPlus.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Testimonial = () => {

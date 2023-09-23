@@ -17,7 +17,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, content, className }) => {
     <div className="h-auto">
       <div className="accordion h-full mb-[27px]">
         <div
-          className={`text-[12px] md:text-[14px] leading-[130%] md:leading-[27.5px] flex justify-between items-center cursor-pointer w-[100%] lg:w-[427px] h-[42.4px] lg:h-[41px] accordion-header
+          className={`text-[12px] md:text-[14px] 2xl:text-[16px] leading-[130%] flex justify-between items-center cursor-pointer w-[100%] lg:w-[427px] 2xl:w-[90%] h-[42.4px] lg:h-[41px] accordion-header
             ${
               isOpen
                 ? "open border-[#d634fe4f] border-b-[1px]"

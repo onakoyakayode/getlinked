@@ -47,12 +47,12 @@ const Timeline = () => {
             November 18, 2023
           </h3>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end xl:items-end w-[100%] ml-0 md:ml-0 lg:ml-[9%] xl:ml-[1.5%] 2xl:ml-[2.8%] mb-[30px] lg:mb-[120px] xl:mb-[140px]">
-          <h3 className="text-[#D434FE] mt-[-5%] md:mt-[-3%] lg:mt-[0] w-[100%] md:w-[100%] lg:w-[50%] xl:w-[515px] text-left lg:text-right text-[12px] leading-[130%] md:text-[16px] lg:text-[20px] xl:text-[24px] font-bold">
+        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end xl:items-end w-[100%] ml-0 md:ml-0 lg:ml-[9%] xl:ml-[-3.3%] 2xl:ml-[-5%] mb-[30px] lg:mb-[120px] xl:mb-[140px]">
+          <h3 className="text-[#D434FE] mt-[-5%] md:mt-[-3%] lg:mt-[0] w-[100%] md:w-[100%] lg:w-[50%] 2xl:w-[50%] text-left lg:text-right text-[12px] leading-[130%] md:text-[16px] lg:text-[20px] xl:text-[24px] font-bold">
             November 18, 2023
           </h3>
           <div
-            className={`${styles.num} w-[19.32px] md:w-[26px] lg:w-[50px] xl:w-[53px] h-[19.32px] md:h-[26px] lg:h-[32px] xl:h-[40px] 2xl:h-[53px] rounded-full flex justify-center items-center ml-[-8%] md:ml-[-5%] lg:ml-[10%] xl:ml-[92px] mr-auto md:mr-0 lg:mr-[8%] xl:mr-[86px]`}
+            className={`${styles.num} w-[19.32px] md:w-[26px] lg:w-[50px] xl:w-[46px] h-[19.32px] md:h-[26px] lg:h-[32px] xl:h-[40px] 2xl:h-[53px] rounded-full flex justify-center items-center ml-[-8%] md:ml-[-5%] lg:ml-[10%] xl:ml-[92px] mr-auto md:mr-0 lg:mr-[8%] xl:mr-[86px]`}
           >
             <p className="font-bold text-[12px] md:text-[16px] lg:text-[18px] xl:text-[24px] leading-[130%]">
               2
@@ -90,7 +90,7 @@ const Timeline = () => {
             November 18, 2023
           </h3>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end xl:items-end 2xl:items-center w-[100%] ml-0 md:ml-[0] xl:ml-[-7px] 2xl:ml-[2.8%] mb-[30px] lg:mb-[100px] xl:mb-[120px]">
+        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end xl:items-end 2xl:items-center w-[100%] ml-0 md:ml-[0] xl:ml-[-7px] 2xl:ml-[2.8%] mb-[30px] lg:mb-[100px] xl:mb-[90px]">
           <h3 className="text-[#D434FE] w-[100%] lg:w-[50%] xl:w-[50%] 2xl:w-[515px] mt-[-5%] md:mt-[-3%] lg:mt-0 text-left lg:text-right text-[12px] md:text-[18px] lg:text-[20px] xl:text-[24px] leading-[130%] font-bold">
             November 18, 2023
           </h3>
@@ -111,7 +111,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-start items-start lg:items-end 2xl:items-center w-[100%] lg:ml-[-3.5%] xl:m-auto  mb-[40px] lg:mb-[100px] xl:mb-[120px]">
+        <div className="flex flex-col lg:flex-row justify-start items-start lg:items-end 2xl:items-center w-[100%] lg:ml-[-3.5%] xl:ml-[2.7%]  mb-[40px] lg:mb-[100px] xl:mb-[120px]">
           <div className="text-left lg:text-right w-[100%] lg:w-[50%] xl:w-[515px] flex flex-col items-start lg:items-end">
             <h3 className="text-[#D434FE] text-[12px] md:text-[20px] xl:text-[24px] leading-[130%] font-bold mb-[12px] w-[100%]">
               Getlinked Hackathon 1.0 Offically Begins
@@ -134,7 +134,7 @@ const Timeline = () => {
             November 18, 2023
           </h3>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end 2xl:items-center w-[100%] xl:ml-[-5px] 2xl:ml-[2.8%] mb-[30px] lg:mb-[100px] xl:mb-[120px]">
+        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end 2xl:items-center w-[100%] xl:ml-[-3.6%] 2xl:ml-[2.8%] mb-[30px] lg:mb-[100px] xl:mb-[120px]">
           <h3 className="text-[#D434FE] w-[100%] mt-[-5%] md:mt-[-4%] lg:mt-0 lg:w-[50%] 2xl:w-[515px] text-left lg:text-right text-[12px] md:text-[18px] lg:text-[20px] xl:text-[24px] leading-[130%] font-bold">
             November 18, 2023
           </h3>

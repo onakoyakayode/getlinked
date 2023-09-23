@@ -92,7 +92,7 @@ const Contact = () => {
                 <RiTwitterXLine className="w-[24px] h-[24px]" />
               </Link>
               <Link href="/">
-                <FaInstagram className="w-[24px] h-[24px]" />
+                <FaFacebookF className="w-[24px] h-[24px]" />
               </Link>
               <Link href="/">
                 <FaLinkedinIn className="w-[24px] h-[24px]" />
