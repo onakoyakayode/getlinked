@@ -21,7 +21,7 @@ const Timeline = () => {
       <h1 className="font-bold font-clashDisplay text-[20px] md:text-[26px] lg:text-[28px] xl:text-[32px] 2xl:text-[36px] leading-[140%] mb-[12px]">
         Timeline
       </h1>
-      <p className="text-[13px] md:text-[14px] xl:text-[15px] 2xl:text-[16px] leading-[140%] xl:w-[35%] w-[292px] md:w-[346px] h-[48px] text-center mb-[17%] ">
+      <p className="text-[13px] md:text-[14px] xl:text-[15px] 2xl:text-[26px] 2xl:text-center leading-[140%] xl:w-[35%] w-[292px] md:w-[346px] h-[48px] text-center mb-[17%] ">
         Here is the breakdown of the time we anticipate using for the upcoming
         event.
       </p>
@@ -111,7 +111,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-start items-start lg:items-end 2xl:items-end w-[100%] lg:ml-[-3.5%] xl:ml-[2.7%] 2xl:ml-[0] mb-[5%] lg:mb-[100px] xl:mb-[120px] 2xl:mb-[130px]">
+        <div className="flex flex-col lg:flex-row justify-start items-start lg:items-end 2xl:items-end w-[100%] lg:ml-[-3.5%] xl:ml-[0] 2xl:ml-[0] mb-[5%] lg:mb-[100px] xl:mb-[120px] 2xl:mb-[130px]">
           <div className="text-left lg:text-right w-[100%] lg:w-[50%] xl:w-[50%] flex flex-col items-start lg:items-end">
             <h3 className="text-[#D434FE] text-[12px] md:text-[20px] xl:text-[24px] 2xl:text-[30px] leading-[130%] font-bold mb-[12px] w-[100%]">
               Getlinked Hackathon 1.0 Offically Begins
@@ -134,7 +134,7 @@ const Timeline = () => {
             November 18, 2023
           </h3>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end 2xl:items-center w-[100%] xl:ml-[-3.6%] 2xl:ml-[-1%] mb-[30px] lg:mb-[100px] xl:mb-[120px]">
+        <div className="flex flex-col-reverse lg:flex-row justify-start items-start lg:items-end 2xl:items-center w-[100%] xl:ml-[-0.3%] 2xl:ml-[-1%] mb-[30px] lg:mb-[100px] xl:mb-[120px]">
           <h3 className="text-[#D434FE] w-[100%] mt-[-7%] md:mt-[-4%] lg:mt-0 lg:w-[50%] 2xl:w-[50%] 2xl:text-[30px] text-left lg:text-right text-[12px] md:text-[18px] lg:text-[20px] xl:text-[24px] leading-[130%] font-bold">
             November 18, 2023
           </h3>

@@ -78,7 +78,7 @@ const Testimonial = () => {
           <h1 className="text-[20px] md:text-[26px] lg:text-[32px] leading-[140%] font-bold font-clashDisplay mb-[15px] lg:mb-[22px] text-center">
             Partners and Sponsors
           </h1>
-          <p className="text-[12px] md:text-[14px] leading-[140%] w-[100%] md:w-[70%] lg:w-[452px] text-center mx-auto mb-[65px]">
+          <p className="text-[12px] 2xl:mx-auto md:text-[14px] leading-[140%] w-[100%] md:w-[70%] lg:w-[452px] text-center mx-auto mb-[65px]">
             Getlinked Hackathon 1.0 is honored to have the following major
             companies as its partners and sponsors
           </p>

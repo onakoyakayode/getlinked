@@ -16,26 +16,38 @@ const Hero = () => {
   const handleClick = () => {
     router.push("/Register");
   };
-
-  const [time, setTime] = useState(new Date());
+  const [countdown, setCountdown] = useState({
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
   useEffect(() => {
-    // Update the time every second
-    const intervalId = setInterval(() => {
-      setTime(new Date());
+    const targetDate = new Date("2023-09-26T12:00:00").getTime();
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const timeRemaining = targetDate - now;
+
+      if (timeRemaining <= 0) {
+        clearInterval(interval);
+        setCountdown({ hours: 0, minutes: 0, seconds: 0 });
+      } else {
+        const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+        const minutes = Math.floor(
+          (timeRemaining % (1000 * 60 * 60)) / (1000 * 60)
+        );
+        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+        setCountdown({ hours, minutes, seconds });
+      }
     }, 1000);
 
-    // Clean up the interval when the component unmounts
-    return () => clearInterval(intervalId);
+    return () => clearInterval(interval);
   }, []);
 
-  const hours = time.getHours();
-  const minutes = time.getMinutes();
-  const seconds = time.getSeconds();
-
   return (
-    <div className=" mt-[20px] lg:mt-[32px] xl:mt-[24px] h-[90dvh] sm:h-[100dvh] md:h-full lg:h-full xl:h-[80dvh] 2xl:h-[88dvh] border-[#ffffff18] border-b-[1px] flex flex-col items-start xl:items-center 2xl:justify-center 2xl:items-center justify-start relative">
-      <div className="self-end relative h-6 pl-[30px] pr-[33px] md:pl-[108px] lg:pl-[128px] xl:pl-[10px] xl:pr-[70px] md:pr-[30px] lg:pr-[55px]">
-        <div className="text-pryColor relative font-bold italic text-[16px] leading-[150%] md:text-[26px] lg:text-[29px] xl:text-[36px]">
+    <div className="pt-[30px] lg:mt-[42px] xl:pt-[0px] h-[90dvh] sm:h-[100dvh] xl:pl-[0px] 2xl:pl-[128px] md:h-full lg:h-full xl:h-[90dvh] 2xl:h-[100dvh] border-[#ffffff18] border-b-[1px] flex flex-col items-start xl:items-end 2xl:justify-start 2xl:pt-[100px] 2xl:items-center justify-start relative top-[90px]">
+      <div className="self-end relative h-6 pl-[30px] pr-[33px] md:pl-[108px] xl:pl-[0px] xl:pr-[70px] md:pr-[30px] lg:pr-[55px]">
+        <div className="2xl:text-[55px] 2xl:mb-[200px] text-pryColor relative font-bold italic text-[15px] leading-[150%] md:text-[26px] lg:text-[29px] xl:text-[36px]">
           <Typewriter
             words={["Igniting a Revolution in HR Innovation"]}
             loop={5}
@@ -50,7 +62,7 @@ const Hero = () => {
           <Image
             src={typeLine}
             alt="getlinked"
-            className="absolute right-[10%] mt-[12px] md:mt-[-5%] md:right-[5%] lg:right-[8%] xl:right-[12%] top-[1.5vh] md:top-[83%] lg:top-[10vh] xl:top-[95%] w-[35%] md:w-[30%] lg:w-[30%] 2xl:top-[10vh]"
+            className="absolute right-[10%] mt-[12px] md:mt-[-5%] md:right-[5%] lg:right-[8%] xl:right-[12%] top-[1.5vh] md:top-[83%] lg:top-[10vh] xl:top-[10.5vh] w-[35%] md:w-[30%] lg:w-[30%] 2xl:top-[10vh]"
           />
         </div>
       </div>
@@ -62,47 +74,47 @@ const Hero = () => {
       <PiStarFourFill
         className={`${styles.fadeInOut} w-[26px] h-[32px] absolute left-[185px] top-[168px]`}
       />
-      <div className="flex flex-col lg:flex-row justify-center md:justify-start md:items-start lg:items-center items-center mt-[35px] md:mt-[35px] w-[100%] relative">
+      <div className="flex flex-col lg:flex-row justify-center md:justify-start md:items-start lg:items-center items-center mt-[60px] md:mt-[35px] xl:mt-[16vh] w-[100%] relative">
         <PiStarFourFill
           className={`${styles.fadeInOut} w-[26px] h-[32px] absolute top-0 left-[45%] text-[#696969]`}
         />
         <PiStarFourFill
           className={`${styles.fadeInOut} w-[26px] h-[32px] absolute bottom-[76px] left-[30%] text-[#696969]`}
         />
-        <div className="w-[100%] md:w-[100%] lg:w-[40%] pl-[30px] pr-[33px] lg:pl-[70px] xl:pl-[100px] 2xl:w-[50%] 2xl:pl-[128px] lg:pr-[0px] xl:pr-[30px] 2xl:pr-[0px] relative flex flex-col justify-start items-center md:items-start">
+        <div className="w-[100%] md:w-[100%] lg:w-[40%] xl:w-[100%] pl-[30px] pr-[33px] lg:pl-[70px] xl:pl-[128px] 2xl:w-[50%] 2xl:pl-[0px] lg:pr-[0px] xl:pr-[30px] 2xl:pr-[0px] relative flex flex-col justify-start items-center md:items-start">
           <Image
             src={title}
             alt="getlinked"
             loading="lazy"
-            className="w-[100%] h-[100px] scale-110 md:scale-100 md:h-[259px] sm:w-[100%] lg:h-[210px] xl:h-[236px] 2xl:h-[300px] md:w-[543px] lg:w-[722px] xl:w-[100%] mb-[9px] md:mb-[9px] lg:mb-[0]"
+            className="w-[100%] h-[100px] scale-110 md:scale-100 md:h-[259px] sm:w-[100%] lg:h-[210px] xl:h-[236px] 2xl:h-[100%] md:w-[543px] lg:w-[722px] xl:w-[100%] mb-[9px] md:mb-[9px] lg:mb-[0]"
           />
-          <p className="font-normal text-[13px] leading-[130%] md:text-[16px] lg:text-[15px] xl:text-[20px] md:text-left lg:text-left text-center w-[264px] md:w-[82%] mb-[41px]">
+          <p className="font-normal text-[13px] leading-[130%] 2xl:text-[36px] md:text-[16px] lg:text-[15px] xl:text-[20px] md:text-left lg:text-left text-center w-[264px] md:w-[82%] mb-[41px]">
             Participate in getlinked tech Hackathon 2023 stand a chance to win a
             Big prize
           </p>
           <Button
             onClick={handleClick}
             text="Register"
-            className="mb-[37px] h-[53px] !w-[120px]"
+            className="mb-[37px] h-[53px] !w-[120px] !2xl:h-[100px] 2xl:w-[300px]"
             specialStyle
             isSpecialPage
           />
-          <div className="text-[48px] md:text-[56px] lg:text-[60px] xl:text-[64px] font-normal leading-[133%] font-unicalOne flex justify-start items-center gap-4">
+          <div className="text-[48px] md:text-[56px] lg:text-[60px] xl:text-[64px] 2xl:text-[96px] font-normal leading-[133%] font-unicalOne flex justify-start items-center gap-4">
             <p>
-              {hours}
+              {countdown.hours.toString().padStart(2, "0")}
               <span className="text-[14px] font-normal leading-[133%]">H </span>
             </p>
             <p>
-              {minutes}
+              {countdown.minutes.toString().padStart(2, "0")}
               <span className="text-[14px] font-normal leading-[133%]">M</span>
             </p>
             <p>
-              {seconds}
+              {countdown.seconds.toString().padStart(2, "0")}
               <span className="text-[14px] font-normal leading-[133%]">s</span>
             </p>
           </div>
         </div>
-        <div className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[100%] 2xl:w-[50%] h-[170vh] md:h-[520px] lg:h-[550px] xl:h-[570px] 2xl:h-[720px] relative overflow-hidden">
+        <div className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[100%] 2xl:w-[50%] h-[170vh] md:h-[520px] lg:h-[550px] xl:h-[60vh] 2xl:h-[67vh] relative overflow-hidden">
           <Image
             src={getLinkedImg}
             alt="getlinked"

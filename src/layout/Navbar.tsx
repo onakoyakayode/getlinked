@@ -46,7 +46,7 @@ const Navbar: React.FC<NavbarProps> = ({ customClassName }) => {
   };
   return (
     <>
-      <nav className="2xl:px-[128px] xl:px-[100px] hidden lg:px-[60px] lg:flex justify-between items-center h-[90px] border-[#ffffff18] border-b-[1px]">
+      <nav className="2xl:px-[128px] xl:px-[100px] hidden lg:px-[60px] lg:flex justify-between items-center h-[90px] border-[#ffffff18] border-b-[1px] fixed left-0 top-0 w-[100%] bg-bgColor z-50">
         <Link href="/">
           <Image
             src={logo}
@@ -96,7 +96,7 @@ const Navbar: React.FC<NavbarProps> = ({ customClassName }) => {
         </div>
       </nav>
       <nav
-        className={`${navbarClasses} ${customClassName} px-[30px] py-[28px] relative flex flex-col lg:hidden justify-between items-start h-[69px] border-[#ffffff18] border-b-[1px]`}
+        className={`${navbarClasses} ${customClassName} px-[30px] py-[28px] flex flex-col lg:hidden justify-between items-start h-[69px] border-[#ffffff18] border-b-[1px] fixed left-0 top-0 w-[100%] bg-bgColor z-50`}
       >
         <Link href="/">
           <Image
@@ -136,13 +136,13 @@ const Navbar: React.FC<NavbarProps> = ({ customClassName }) => {
                 Timeline
               </Link>
               <Link
-                href="#"
+                href="#overview"
                 className="text-pryColor text-[18px] leading-[19.5px] font-normal"
               >
                 Overview
               </Link>
               <Link
-                href="#"
+                href="#Faqs"
                 className="text-pryColor text-[18px] leading-[19.5px] font-normal"
               >
                 FAQs

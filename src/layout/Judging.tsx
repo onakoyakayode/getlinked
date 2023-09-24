@@ -47,7 +47,7 @@ const Judging = () => {
             Judging Criteria{" "}
             <span className="text-[#D434FE]">Key attributes</span>
           </h3>
-          <p className="text-[13px] md:text-[14px] 2xl:text-[16px] leading-[160%] text-center md:text-left mb-[22px]">
+          <p className="text-[13px] md:text-[14px] 2xl:text-[16px] leading-[160%] text-left md:text-left mb-[22px]">
             <span className="text-[#FF26B9] font-bold text-[12px] md:text-[16px] leading-[140%]">
               Innovation and Creativity:
             </span>{" "}
@@ -55,7 +55,7 @@ const Judging = () => {
             whether it addresses a real-world problem in a novel way or
             introduces innovative features.
           </p>
-          <p className="text-[13px] md:text-[14px] leading-[160%] 2xl:text-[16px] text-center md:text-left mb-[22px]">
+          <p className="text-[13px] md:text-[14px] leading-[160%] 2xl:text-[16px] text-left md:text-left mb-[22px]">
             <span className="text-[#FF26B9] font-bold text-[12px] md:text-[16px] leading-[140%]">
               Functionality:
             </span>{" "}
@@ -63,7 +63,7 @@ const Judging = () => {
             functions effectively and without major issues? Judges would
             consider the completeness and robustness of the solution.
           </p>
-          <p className="text-[13px] md:text-[14px] leading-[160%] text-center 2xl:text-[16px] md:text-left mb-[22px]">
+          <p className="text-[13px] md:text-[14px] leading-[160%] text-left 2xl:text-[16px] md:text-left mb-[22px]">
             <span className="text-[#FF26B9] font-bold text-[12px] md:text-[16px] leading-[140%]">
               Impact and Relevance:
             </span>{" "}
@@ -72,7 +72,7 @@ const Judging = () => {
             target audience? Judges would assess the potential social, economic,
             or environmental benefits.
           </p>
-          <p className="text-[13px] md:text-[14px] leading-[160%] text-center md:text-left 2xl:text-[16px] mb-[22px]">
+          <p className="text-[13px] md:text-[14px] leading-[160%] text-left md:text-left 2xl:text-[16px] mb-[22px]">
             <span className="text-[#FF26B9] font-bold text-[12px] md:text-[16px] leading-[140%]">
               Technical Complexity:
             </span>{" "}
@@ -80,7 +80,7 @@ const Judging = () => {
             consider the complexity of the code, the use of advanced
             technologies or algorithms, and the scalability of the solution.
           </p>
-          <p className="text-[13px] md:text-[14px] leading-[160%] text-center md:text-left mb-[55px] 2xl:text-[16px]">
+          <p className="text-[13px] md:text-[14px] leading-[160%] text-left md:text-left mb-[55px] 2xl:text-[16px]">
             <span className="text-[#FF26B9] font-bold text-[12px] md:text-[16px] leading-[140%]">
               Adherence to Hackathon Rules:
             </span>{" "}

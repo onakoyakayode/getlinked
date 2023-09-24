@@ -12,7 +12,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="text-pryColor bg-bgColor h-full w-full">
+    <div className="text-pryColor bg-bgColor h-full w-full relative">
       <Navbar specialStyle={true} />
       <Hero />
       <Introduction />
