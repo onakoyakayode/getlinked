@@ -30,12 +30,12 @@ const FAQs: React.FC = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-24 xl:gap-[20px] w-[100%]">
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
-          className="w-[100%] md:w-[45%] lg:w-[40%] xl:w-[60%] 2xl:w-[45%] mb-[40px] lg:mb-0"
+          className="w-[100%] md:w-[100%] lg:w-[40%] xl:w-[60%] 2xl:w-[45%] mb-[40px] lg:mb-0"
         >
-          <h2 className="text-[20px] text-center md:text-left mx-auto md:mx-0 md:text-[26px] lg:text-[32px] xl:text-[36px] xl:w-[60%] font-bold font-clashDisplay leading-[130%] w-[158px] h-[54px] md:w-[40%] md:h-[68px] lg:h-[86px] lg:w-[253px] mb-[16px]">
+          <h2 className="text-[20px] text-center lg:text-left mx-auto lg:mx-0 md:text-[26px] lg:text-[32px] xl:text-[36px] xl:w-[60%] font-bold font-clashDisplay leading-[130%] w-[158px] h-[54px] md:w-[40%] md:h-[68px] lg:h-[86px] lg:w-[253px] mb-[16px]">
             Frequently Ask <span className="text-[#D434FE]">Question</span>
           </h2>
-          <p className="text-[12px] text-center md:text-center xl:text-left xl:w-[70%] md:text-[13px] lg:text-[15px] 2xl:text-[22px] 2xl:text-left leading-[140%] md:w-[80%] lg:w-[100%] w-[100%] 2xl:w-[80%] mb-[68px]">
+          <p className="text-[12px] text-center mx-auto lg:mx-0 lg:text-center xl:text-left xl:w-[70%] md:text-[13px] lg:text-[15px] 2xl:text-[22px] 2xl:text-left leading-[140%] md:w-[80%] lg:w-[100%] w-[100%] 2xl:w-[80%] mb-[68px]">
             We got answers to the questions that you might want to ask about
             getlinked Hackathon 1.0
           </p>
@@ -74,7 +74,7 @@ const FAQs: React.FC = () => {
         </AnimationOnScroll>
         <AnimationOnScroll
           animateIn="animate__fadeInRight"
-          className="w-[100%] md:w-[55%] lg:w-[60%] xl:w-[50%]"
+          className="w-[100%] md:w-[100%] lg:w-[60%] xl:w-[50%]"
         >
           <Image
             src={faqImg}

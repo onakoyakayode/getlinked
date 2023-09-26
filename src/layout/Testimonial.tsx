@@ -48,9 +48,9 @@ const Testimonial = () => {
       <div className="flex flex-col items-center lg:items-start justify-center lg:justify-start w-full">
         <AnimationOnScroll
           animateIn="animate__fadeInRight"
-          className="self-center md:self-start lg:self-end xl:self-end mb-[20px] lg:mb-[70px] lg:ml-[60%]"
+          className="self-center md:self-center lg:self-end xl:self-end mb-[20px] lg:mb-[70px] lg:ml-[60%]"
         >
-          <h2 className="text-[20px] md:text-[26px] lg:text-[32px] font-bold leading-[140%] mx-auto md:mx-auto lg:mx-0 font-clashDisplay w-[109px] md:w-[174px] lg:w-[60%] mb-[10px] md:mb-[20px]">
+          <h2 className="text-[20px] md:text-center lg:text-left md:text-[26px] lg:text-[32px] font-bold leading-[140%] mx-auto lg:mx-0 font-clashDisplay w-[109px] md:w-[55%] lg:w-[60%] mb-[10px] md:mb-[20px]">
             Prizes and <span className="text-[#D434FE]">Rewards</span>
           </h2>
           <p className="w-[80%] mx-auto md:w-[70%] lg:w-[90%] text-[12px] md:text-[14px] lg:text-[15px] leading-[130%] md:mx-auto lg:mx-0 text-center lg:text-left">

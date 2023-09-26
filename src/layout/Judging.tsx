@@ -13,7 +13,7 @@ const Judging = () => {
     console.log();
   };
   return (
-    <div className="border-[#ffffff18] border-b-[1px] w-ful 2xl:h-[90dvh] px-[30px] md:px-[50px] lg:px-[60px] xl:px-[100px] 2xl:px-[108px] pt-[74px] md:pt-[70px] lg:pt-[70px] xl:pt-[62px] 2xl:pt-[100px] pb-[100px] relative">
+    <div className="border-[#ffffff18] border-b-[1px] w-ful 2xl:h-[90dvh] px-[30px] md:px-[50px] lg:px-[60px] xl:px-[100px] 2xl:px-[108px] pt-[74px] md:pt-[13vh] lg:pt-[70px] xl:pt-[62px] 2xl:pt-[100px] pb-[100px] relative">
       <Image
         src={purpleBg}
         alt="getlinked"
@@ -30,7 +30,7 @@ const Judging = () => {
       />
       <AnimationOnScroll
         animateIn="animate__fadeInUp"
-        className="flex flex-col lg:flex-row justify-center items-center gap-[40px] md:gap-[53px] relative"
+        className="mt-[16vh] md:mt-0 flex flex-col lg:flex-row justify-center items-center gap-[40px] md:gap-[53px] relative"
       >
         <Image
           src={judgeImg}

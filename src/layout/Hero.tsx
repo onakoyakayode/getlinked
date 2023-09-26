@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import typeLine from "../assets/icons/Vector4.png";
 import Image from "next/image";
 import styles from "../styles/style.module.css";
-import title from "../assets/images/Title.svg";
+import title from "../assets/images/Title.png";
 import Button from "@/components/Button";
 import getLinkedImg from "../assets/images/Image1.png";
 import man from "../assets/images/man-wearing-smart-glasses-touching-virtual-screen1.png";
@@ -62,7 +62,7 @@ const Hero = () => {
           <Image
             src={typeLine}
             alt="getlinked"
-            className="absolute right-[10%] mt-[12px] md:mt-[-5%] md:right-[5%] lg:right-[8%] xl:right-[12%] top-[1.5vh] md:top-[83%] lg:top-[10vh] xl:top-[10.5vh] w-[35%] md:w-[30%] lg:w-[30%] 2xl:top-[10vh]"
+            className="absolute right-[10%] mt-[12px] md:mt-[3%] md:right-[5%] lg:right-[8%] xl:right-[12%] top-[1.5vh] md:top-[83%] lg:top-[10vh] xl:top-[10.5vh] w-[35%] md:w-[30%] lg:w-[30%] 2xl:top-[10vh]"
           />
         </div>
       </div>
